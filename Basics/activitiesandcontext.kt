@@ -42,6 +42,6 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(applicationContext, SecondActivity::class.java) // butona basıldığında hangi sayfaya gidilmek istendiği yazılır
         //intent.putExtra("yollananVeri", userData)
         startActivity(intent) // bu satırla da çalıştırılır
-
+        finish() // bu satırla hafıza problemini halledebilirsin
     }
 }
